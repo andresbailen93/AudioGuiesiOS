@@ -14,6 +14,8 @@
 		2511F13E1C71E93500965178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2511F13D1C71E93500965178 /* Assets.xcassets */; };
 		2511F1411C71E93500965178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2511F13F1C71E93500965178 /* LaunchScreen.storyboard */; };
 		2511F14C1C71E93500965178 /* AudioGuidesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2511F14B1C71E93500965178 /* AudioGuidesTests.swift */; };
+		256A91721C73A2B900181D4E /* Audio+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256A916E1C73A2B900181D4E /* Audio+CoreDataProperties.swift */; };
+		256A91741C73A2B900181D4E /* Monuments+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256A91701C73A2B900181D4E /* Monuments+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		2511F1471C71E93500965178 /* AudioGuidesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioGuidesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2511F14B1C71E93500965178 /* AudioGuidesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioGuidesTests.swift; sourceTree = "<group>"; };
 		2511F14D1C71E93500965178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		256A916E1C73A2B900181D4E /* Audio+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Audio+CoreDataProperties.swift"; path = "../../../../.Trash/Audio+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		256A91701C73A2B900181D4E /* Monuments+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Monuments+CoreDataProperties.swift"; path = "../../../../.Trash/Monuments+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		2511F1321C71E93500965178 /* AudioGuides */ = {
 			isa = PBXGroup;
 			children = (
+				256A91621C73A10200181D4E /* Entities */,
 				2511F1331C71E93500965178 /* AppDelegate.swift */,
 				2511F1351C71E93500965178 /* ViewController.swift */,
 				2511F1371C71E93500965178 /* Main.storyboard */,
@@ -97,6 +102,15 @@
 				2511F14D1C71E93500965178 /* Info.plist */,
 			);
 			path = AudioGuidesTests;
+			sourceTree = "<group>";
+		};
+		256A91621C73A10200181D4E /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				256A916E1C73A2B900181D4E /* Audio+CoreDataProperties.swift */,
+				256A91701C73A2B900181D4E /* Monuments+CoreDataProperties.swift */,
+			);
+			name = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,7 +216,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				256A91741C73A2B900181D4E /* Monuments+CoreDataProperties.swift in Sources */,
 				2511F1361C71E93500965178 /* ViewController.swift in Sources */,
+				256A91721C73A2B900181D4E /* Audio+CoreDataProperties.swift in Sources */,
 				2511F13C1C71E93500965178 /* AudioGuides.xcdatamodeld in Sources */,
 				2511F1341C71E93500965178 /* AppDelegate.swift in Sources */,
 			);
@@ -394,6 +410,7 @@
 				2511F1521C71E93500965178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2511F1531C71E93500965178 /* Build configuration list for PBXNativeTarget "AudioGuidesTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +419,7 @@
 				2511F1551C71E93500965178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
