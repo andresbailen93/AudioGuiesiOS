@@ -3,12 +3,12 @@
     <entity name="Audio" representedClassName=".Audio" syncable="YES">
         <attribute name="audio_name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="id_audio" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
-        <attribute name="id_monument" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
         <attribute name="lenguage" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="punctuation" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
         <attribute name="size" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="votes" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="aMonument" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Monuments" inverseName="audios" inverseEntity="Monuments" syncable="YES"/>
     </entity>
     <entity name="Monuments" representedClassName=".Monuments" syncable="YES">
         <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
@@ -17,9 +17,10 @@
         <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
         <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="audios" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Audio" inverseName="aMonument" inverseEntity="Audio" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Audio" positionX="-63" positionY="-18" width="128" height="165"/>
-        <element name="Monuments" positionX="-63" positionY="45" width="128" height="135"/>
+        <element name="Audio" positionX="-90" positionY="-82" width="128" height="163"/>
+        <element name="Monuments" positionX="187" positionY="-72" width="128" height="148"/>
     </elements>
 </model>
