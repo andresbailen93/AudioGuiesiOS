@@ -14,6 +14,9 @@
 		2511F13E1C71E93500965178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2511F13D1C71E93500965178 /* Assets.xcassets */; };
 		2511F1411C71E93500965178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2511F13F1C71E93500965178 /* LaunchScreen.storyboard */; };
 		2511F14C1C71E93500965178 /* AudioGuidesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2511F14B1C71E93500965178 /* AudioGuidesTests.swift */; };
+		25620E741C7497580013BF82 /* LookForViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25620E731C7497580013BF82 /* LookForViewController.swift */; };
+		25620E771C74977E0013BF82 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25620E761C74977E0013BF82 /* MapViewController.swift */; };
+		25620E7A1C74979B0013BF82 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25620E791C74979B0013BF82 /* HistoryViewController.swift */; };
 		256A91721C73A2B900181D4E /* Audio+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256A916E1C73A2B900181D4E /* Audio+CoreDataProperties.swift */; };
 		256A91741C73A2B900181D4E /* Monuments+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256A91701C73A2B900181D4E /* Monuments+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
@@ -40,6 +43,9 @@
 		2511F1471C71E93500965178 /* AudioGuidesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioGuidesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2511F14B1C71E93500965178 /* AudioGuidesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioGuidesTests.swift; sourceTree = "<group>"; };
 		2511F14D1C71E93500965178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25620E731C7497580013BF82 /* LookForViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LookForViewController.swift; sourceTree = "<group>"; };
+		25620E761C74977E0013BF82 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		25620E791C74979B0013BF82 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		256A916E1C73A2B900181D4E /* Audio+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Audio+CoreDataProperties.swift"; path = "../../../../.Trash/Audio+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		256A91701C73A2B900181D4E /* Monuments+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Monuments+CoreDataProperties.swift"; path = "../../../../.Trash/Monuments+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +89,7 @@
 		2511F1321C71E93500965178 /* AudioGuides */ = {
 			isa = PBXGroup;
 			children = (
+				25620E6D1C7495880013BF82 /* View Controllers */,
 				256A91621C73A10200181D4E /* Entities */,
 				2511F1331C71E93500965178 /* AppDelegate.swift */,
 				2511F1351C71E93500965178 /* ViewController.swift */,
@@ -102,6 +109,40 @@
 				2511F14D1C71E93500965178 /* Info.plist */,
 			);
 			path = AudioGuidesTests;
+			sourceTree = "<group>";
+		};
+		25620E6D1C7495880013BF82 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				25620E781C7497870013BF82 /* HistoryController */,
+				25620E751C7497670013BF82 /* MapController */,
+				25620E6E1C7496260013BF82 /* LookForController */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		25620E6E1C7496260013BF82 /* LookForController */ = {
+			isa = PBXGroup;
+			children = (
+				25620E731C7497580013BF82 /* LookForViewController.swift */,
+			);
+			name = LookForController;
+			sourceTree = "<group>";
+		};
+		25620E751C7497670013BF82 /* MapController */ = {
+			isa = PBXGroup;
+			children = (
+				25620E761C74977E0013BF82 /* MapViewController.swift */,
+			);
+			name = MapController;
+			sourceTree = "<group>";
+		};
+		25620E781C7497870013BF82 /* HistoryController */ = {
+			isa = PBXGroup;
+			children = (
+				25620E791C74979B0013BF82 /* HistoryViewController.swift */,
+			);
+			name = HistoryController;
 			sourceTree = "<group>";
 		};
 		256A91621C73A10200181D4E /* Entities */ = {
@@ -219,8 +260,11 @@
 				256A91741C73A2B900181D4E /* Monuments+CoreDataProperties.swift in Sources */,
 				2511F1361C71E93500965178 /* ViewController.swift in Sources */,
 				256A91721C73A2B900181D4E /* Audio+CoreDataProperties.swift in Sources */,
+				25620E741C7497580013BF82 /* LookForViewController.swift in Sources */,
 				2511F13C1C71E93500965178 /* AudioGuides.xcdatamodeld in Sources */,
 				2511F1341C71E93500965178 /* AppDelegate.swift in Sources */,
+				25620E771C74977E0013BF82 /* MapViewController.swift in Sources */,
+				25620E7A1C74979B0013BF82 /* HistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
