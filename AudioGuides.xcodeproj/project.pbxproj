@@ -14,9 +14,7 @@
 		2511F13E1C71E93500965178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2511F13D1C71E93500965178 /* Assets.xcassets */; };
 		2511F1411C71E93500965178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2511F13F1C71E93500965178 /* LaunchScreen.storyboard */; };
 		2511F14C1C71E93500965178 /* AudioGuidesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2511F14B1C71E93500965178 /* AudioGuidesTests.swift */; };
-		2543F2241C75D6A500457110 /* LookForTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2543F2231C75D6A500457110 /* LookForTableViewController.swift */; };
 		2543F2261C75D70500457110 /* LookForCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2543F2251C75D70500457110 /* LookForCellController.swift */; };
-		2543F2281C75D76D00457110 /* MonumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2543F2271C75D76D00457110 /* MonumentViewController.swift */; };
 		2543F22A1C75D7DD00457110 /* AVPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2543F2291C75D7DD00457110 /* AVPlayerViewController.swift */; };
 		2543F22C1C75D81700457110 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2543F22B1C75D81700457110 /* HistoryTableViewController.swift */; };
 		2543F22E1C75D83E00457110 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2543F22D1C75D83E00457110 /* HistoryTableViewCell.swift */; };
@@ -26,7 +24,8 @@
 		2543F2361C75D94200457110 /* Monuments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2543F2321C75D94200457110 /* Monuments.swift */; };
 		25620E741C7497580013BF82 /* LookForViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25620E731C7497580013BF82 /* LookForViewController.swift */; };
 		25620E771C74977E0013BF82 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25620E761C74977E0013BF82 /* MapViewController.swift */; };
-		25620E7A1C74979B0013BF82 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25620E791C74979B0013BF82 /* HistoryViewController.swift */; };
+		25C7E6FD1C77218C005ED68C /* MonumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C7E6FC1C77218C005ED68C /* MonumentViewController.swift */; };
+		25C7E6FF1C772325005ED68C /* LookForTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C7E6FE1C772325005ED68C /* LookForTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,9 +50,7 @@
 		2511F1471C71E93500965178 /* AudioGuidesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioGuidesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2511F14B1C71E93500965178 /* AudioGuidesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioGuidesTests.swift; sourceTree = "<group>"; };
 		2511F14D1C71E93500965178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2543F2231C75D6A500457110 /* LookForTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LookForTableViewController.swift; sourceTree = "<group>"; };
 		2543F2251C75D70500457110 /* LookForCellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LookForCellController.swift; sourceTree = "<group>"; };
-		2543F2271C75D76D00457110 /* MonumentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonumentViewController.swift; sourceTree = "<group>"; };
 		2543F2291C75D7DD00457110 /* AVPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerViewController.swift; sourceTree = "<group>"; };
 		2543F22B1C75D81700457110 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
 		2543F22D1C75D83E00457110 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
@@ -63,7 +60,8 @@
 		2543F2321C75D94200457110 /* Monuments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Monuments.swift; path = ../Monuments.swift; sourceTree = "<group>"; };
 		25620E731C7497580013BF82 /* LookForViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LookForViewController.swift; sourceTree = "<group>"; };
 		25620E761C74977E0013BF82 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		25620E791C74979B0013BF82 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		25C7E6FC1C77218C005ED68C /* MonumentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonumentViewController.swift; sourceTree = "<group>"; };
+		25C7E6FE1C772325005ED68C /* LookForTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LookForTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,9 +139,9 @@
 			isa = PBXGroup;
 			children = (
 				25620E731C7497580013BF82 /* LookForViewController.swift */,
-				2543F2231C75D6A500457110 /* LookForTableViewController.swift */,
 				2543F2251C75D70500457110 /* LookForCellController.swift */,
 				2543F2291C75D7DD00457110 /* AVPlayerViewController.swift */,
+				25C7E6FE1C772325005ED68C /* LookForTableViewController.swift */,
 			);
 			name = LookForController;
 			sourceTree = "<group>";
@@ -152,7 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				25620E761C74977E0013BF82 /* MapViewController.swift */,
-				2543F2271C75D76D00457110 /* MonumentViewController.swift */,
+				25C7E6FC1C77218C005ED68C /* MonumentViewController.swift */,
 			);
 			name = MapController;
 			sourceTree = "<group>";
@@ -160,7 +158,6 @@
 		25620E781C7497870013BF82 /* HistoryController */ = {
 			isa = PBXGroup;
 			children = (
-				25620E791C74979B0013BF82 /* HistoryViewController.swift */,
 				2543F22B1C75D81700457110 /* HistoryTableViewController.swift */,
 				2543F22D1C75D83E00457110 /* HistoryTableViewCell.swift */,
 			);
@@ -284,18 +281,17 @@
 				2543F2361C75D94200457110 /* Monuments.swift in Sources */,
 				2543F2261C75D70500457110 /* LookForCellController.swift in Sources */,
 				2543F22E1C75D83E00457110 /* HistoryTableViewCell.swift in Sources */,
+				25C7E6FD1C77218C005ED68C /* MonumentViewController.swift in Sources */,
 				2511F1361C71E93500965178 /* ViewController.swift in Sources */,
 				2543F2331C75D94200457110 /* Audio+CoreDataProperties.swift in Sources */,
 				25620E741C7497580013BF82 /* LookForViewController.swift in Sources */,
 				2511F13C1C71E93500965178 /* AudioGuides.xcdatamodeld in Sources */,
 				2543F2341C75D94200457110 /* Audio.swift in Sources */,
-				2543F2281C75D76D00457110 /* MonumentViewController.swift in Sources */,
 				2511F1341C71E93500965178 /* AppDelegate.swift in Sources */,
+				25C7E6FF1C772325005ED68C /* LookForTableViewController.swift in Sources */,
 				25620E771C74977E0013BF82 /* MapViewController.swift in Sources */,
-				2543F2241C75D6A500457110 /* LookForTableViewController.swift in Sources */,
 				2543F2351C75D94200457110 /* Monuments+CoreDataProperties.swift in Sources */,
 				2543F22A1C75D7DD00457110 /* AVPlayerViewController.swift in Sources */,
-				25620E7A1C74979B0013BF82 /* HistoryViewController.swift in Sources */,
 				2543F22C1C75D81700457110 /* HistoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

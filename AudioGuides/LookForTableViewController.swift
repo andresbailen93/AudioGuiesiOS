@@ -2,7 +2,7 @@
 //  LookForTableViewController.swift
 //  AudioGuides
 //
-//  Created by Andrés Bailén Jiménez on 18/2/16.
+//  Created by Andrés Bailén Jiménez on 19/2/16.
 //  Copyright © 2016 Andrés Bailén Jiménez. All rights reserved.
 //
 
@@ -91,5 +91,7 @@ class LookForTableViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    @IBAction func cancel(sender: UIBarButtonItem) {        dismissViewControllerAnimated(true, completion: nil)
+    }
 
 }

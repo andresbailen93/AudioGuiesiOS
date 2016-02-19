@@ -2,7 +2,7 @@
 //  MonumentViewController.swift
 //  AudioGuides
 //
-//  Created by Andrés Bailén Jiménez on 18/2/16.
+//  Created by Andrés Bailén Jiménez on 19/2/16.
 //  Copyright © 2016 Andrés Bailén Jiménez. All rights reserved.
 //
 
@@ -31,5 +31,10 @@ class MonumentViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    // MARK: - Action
+    @IBAction func cancel(sender: UIBarButtonItem) {
+        dismissViewControllerAnimated(true, completion: nil)
+
+    }
 
 }

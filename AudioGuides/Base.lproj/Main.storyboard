@@ -104,7 +104,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="History" id="dtr-wc-bJ1">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="qeX-aF-2h8"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="qeX-aF-2h8">
+                            <connections>
+                                <action selector="cancel:" destination="fSI-Ye-1ZF" id="MDM-4F-Ues"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j0T-jt-akQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -154,7 +158,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r39-dc-1zr">
                                                 <rect key="frame" x="0.0" y="0.0" width="560" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SVb-Dg-p29">
@@ -165,7 +169,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6vT-bY-mwr">
                                                 <rect key="frame" x="0.0" y="60" width="560" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jmS-5i-g4a">
@@ -176,7 +180,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nrn-l6-VAJ">
                                                 <rect key="frame" x="0.0" y="120" width="560" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gJS-B8-Lgq">
@@ -223,7 +227,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="QjE-gt-ltl">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="AFW-XV-Y5G"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="AFW-XV-Y5G">
+                            <connections>
+                                <action selector="cancel:" destination="vN6-0Y-6zE" id="hRJ-yh-B9y"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z6c-aF-hQR" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -321,10 +329,14 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="5sk-eO-4Rx">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="sBc-8L-pI0"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="sBc-8L-pI0">
+                            <connections>
+                                <action selector="cancel:" destination="TBs-W9-3mD" id="qPc-W0-EOW"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="play" id="REo-V4-XiR">
                             <connections>
-                                <segue destination="xca-H2-9d0" kind="show" id="I3H-lt-h2B"/>
+                                <segue destination="xca-H2-9d0" kind="show" id="ZjH-9g-2Id"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -398,7 +410,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Buscar por Nombre:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P1P-MT-7G3">
                                         <rect key="frame" x="0.0" y="256" width="560" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lzP-kh-lZx">
@@ -409,7 +421,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Buscar por Ciudad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E1z-TF-3dW">
                                         <rect key="frame" x="0.0" y="316" width="560" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MJw-za-hw7">
@@ -420,7 +432,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Buscar por Codigo Postal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RIL-ka-hGp">
                                         <rect key="frame" x="0.0" y="376" width="560" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i19-xx-XBD">
@@ -431,7 +443,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Buscar por Calle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ckK-Ec-l8K">
                                         <rect key="frame" x="0.0" y="436" width="560" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nlu-Op-rw0">
@@ -478,7 +490,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Buscar Monumento" id="blI-P7-1kw">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="77x-p5-csw"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="77x-p5-csw">
+                            <connections>
+                                <action selector="cancel:" destination="JvF-1X-VUs" id="bf2-5Q-Znm"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xli-nK-rIy" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -526,7 +542,11 @@
                     </tableView>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="ObG-2k-AUi">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="mw7-XQ-LcI"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="mw7-XQ-LcI">
+                            <connections>
+                                <action selector="cancel:" destination="dHg-LQ-MBc" id="OsT-Sm-7bd"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
